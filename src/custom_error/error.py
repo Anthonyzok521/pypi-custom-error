@@ -3,7 +3,7 @@
 * Author: Anthony Carrillo
 * Email: anthonyzok521@gmail.com
 * Github: https://github.com/Anthonyzok521
-* License: MTI
+* License: MIT
 * Datetime: 13/07/2024
 '''
 class Error(Exception):  # Inherit from `Exception` for proper exception handling
@@ -15,6 +15,7 @@ class Error(Exception):  # Inherit from `Exception` for proper exception handlin
         message (str): Error message (defaults to an empty string).
     '''
     def __init__(self, message:str, type_error: str = '') -> None:
+        super().__init__()
         self.type_e = type_error
         self.msg_e = f"Error: {message}"
 
