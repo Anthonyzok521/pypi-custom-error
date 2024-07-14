@@ -22,7 +22,6 @@ setup(
     url='https://github.com/Anthonyzok521/pypi-custom-error',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: MIT License",
         "Operating System :: OS Independent"
     ],
     keywords=[
