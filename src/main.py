@@ -12,7 +12,7 @@ if __name__ == '__main__':
     except Error as e:
         print(e.info())
 
-    err = Error('Erro1')
+    err = Error('Error 1')
     print(err.info())
 
     print(Error("Error 2", "Test").info())
