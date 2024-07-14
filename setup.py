@@ -12,7 +12,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Anthony Carrillo',
     author_email='anthonyzok521@gmail.com',
-    url='https://github.com/Anthonyzok521',
+    url='https://github.com/Anthonyzok521/pypi-custom-error',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: MIT License",
