@@ -12,6 +12,7 @@ setup(
     version='1.0.0',
     package_dir={'':'src'},
     packages=find_packages('src'),
+    install_requires=['colorama'],
     description='Create your custom errors and I have control of them with Custom Error',
     license=read_file('LICENSE'),
     long_description=read_file('README.md'),

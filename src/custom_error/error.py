@@ -6,6 +6,9 @@
 * License: MIT
 * Datetime: 13/07/2024
 '''
+
+from colorama import Fore
+
 class Error(Exception):  # Inherit from `Exception` for proper exception handling
     '''
     Class to represent custom errors.
@@ -33,4 +36,4 @@ class Error(Exception):  # Inherit from `Exception` for proper exception handlin
         if self.type_e != '':
             _type_e = f'- Type: {self.type_e}'
 
-        return f"{self.msg_e} {_type_e}"
+        return f"{Fore.RED}{self.msg_e} {_type_e}{Fore.RESET}"
